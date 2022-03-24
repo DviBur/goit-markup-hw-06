@@ -476,16 +476,16 @@ text-decoration: none;
 
 .form-input:focus,
 .form-input:hover {
-  border-color: var(--nav-text-color);
+  border-color: var(--accent-color);
   outline: none;
 }
 
 .form-input:hover + .input-icon {
-  fill: var(--nav-text-color);
+  fill: var(--accent-color);
 }
 
 .form-input:focus + .input-icon {
-  fill: var(--nav-text-color);
+  fill: var(--accent-color);
 }
 
 .input-wrap {
@@ -517,7 +517,7 @@ text-decoration: none;
 
 .form-comment:focus,
 .form-comment:hover {
-  border-color: var(--nav-text-color);
+  border-color: var(--accent-color);
 }
 
 .form-comment::placeholder {
