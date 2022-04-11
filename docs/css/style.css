@@ -490,7 +490,8 @@ text-decoration: none;
 .close-icon:focus,
 .close-icon:hover {
   border-color: var(--accent-color);
-  outline: none;
+color: var(--accent-color);
+background-color: #188CE8;
 }
 
 .form-input {
