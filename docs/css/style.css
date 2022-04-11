@@ -487,6 +487,11 @@ text-decoration: none;
   margin-bottom: 12px;
   color: var(--title-text-color);
 }
+.close-icon:focus,
+.close-icon:hover {
+  border-color: var(--accent-color);
+  outline: none;
+}
 
 .form-input {
   font-size: 14px;
