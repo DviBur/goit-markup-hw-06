@@ -491,9 +491,13 @@ text-decoration: none;
 .close-icon:hover {
   border-color: var(--accent-color);
 color: var(--accent-color);
-background-color: #188CE8;
-}
 
+
+}
+.vector:focus,
+.vector:hover  {
+fill: var(--accent-color);
+}
 .form-input {
   font-size: 14px;
   line-height: 1.14;
