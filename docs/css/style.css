@@ -406,6 +406,11 @@ text-decoration: none;
 	align-items: center;
 	cursor: pointer;
 }
+.modal-close:hover,
+.modal-close:focus 
+{
+  fill: var(--accent-color);
+}
 .close {
   margin: 8px;
   padding: 6px;
